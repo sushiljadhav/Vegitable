@@ -80,6 +80,7 @@
 
 </section>
 
+<!-- Accordion section start here-->
 <section class="products_details_accordion">
 	<div class="container">
 	<h2>Fresho Onion - Medium/Kanda- Madhyam</h2>
@@ -119,6 +120,343 @@
     </div>
   </div>
 </div>
+	</div>
+</section>
+
+<!--Similar products section start here-->
+<section class="similar_products">
+	<div class="container">
+	<h2>Similar Products</h2>
+		<div class="row products_slider">
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>	
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+								Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+				<a href="#FIXME" title="Strawberry">
+					<div class="card_content">
+						<figure>
+							<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable One">
+						</figure>
+						<h6>strawberry</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<div class="form-group">
+							<select id="inputState" class="form-control form-control-sm">
+								<option selected>Choose...</option>
+								<option>500g - Rs.17.50</option>
+								<option>1kg - Rs.33.00</option>
+								<option>2Kg - Rs.66.00</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="inlineFormInputGroup">Username</label>
+							<div class="input-group mb-2">
+								<div class="input-group-prepend">
+									<div class="input-group-text form-control-sm" style="font-size:14px">Qty</div>
+								</div>
+								<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col">
+								<div class="btn btn-primary btn-sm view_details">
+									Details
+								</div>
+							</div>
+							<div class="col-xl-6 col">
+							<div class="btn btn-primary btn-sm ">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							Add
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
 	</div>
 </section>
 
