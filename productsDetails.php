@@ -74,6 +74,41 @@
 				</div>
 				<p class="products_details_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis eius quibusdam earum perspiciatis at ullam iusto ipsum incidunt sit!</p>
 				<button class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</button>
+				<div class="reviews">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Rating & Reviews</h5>
+							<div class="card-text">
+								<div class="row">
+									<div class="col-md-3">
+										<span>3.2 <i class="fa fa-star" aria-hidden="true"></i></span>
+									</div>
+									<div class="col-md-9">
+										<h4 class="small font-weight-bold">32 reviews<span class="float-right">5 <i class="fa fa-star" aria-hidden="true"></i></span></h4>
+										<div class="progress mb-1">
+												<div class="progress-bar bg-success" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">20%</span></div>
+										</div>
+										<h4 class="small font-weight-bold">29 reviews<span class="float-right">4 <i class="fa fa-star" aria-hidden="true"></i></h4>
+										<div class="progress mb-1">
+												<div class="progress-bar bg-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">40%</span></div>
+										</div>
+										<h4 class="small font-weight-bold">24 reviews<span class="float-right">3 <i class="fa fa-star" aria-hidden="true"></i></h4>
+										<div class="progress mb-1">
+												<div class="progress-bar bg-warning" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+										</div>
+										<h4 class="small font-weight-bold">2 reviews<span class="float-right">2 <i class="fa fa-star" aria-hidden="true"></i></h4>
+										<div class="progress mb-1">
+												<div class="progress-bar bg-danger" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="sr-only">80%</span></div>
+										</div>
+										<h4 class="small font-weight-bold">1 reviews<span class="float-right">1 <i class="fa fa-star" aria-hidden="true"></i></h4>
+										<div class="progress mb-1">
+											<div class="progress-bar bg-danger" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">100%</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
 			</div>
 		</div>
 	</div>
@@ -124,16 +159,7 @@
 </section>
 
 <!--Div for reviews-->
-<div class="reviews">
-	<div class="container">
-		<div class="card">
-			<div class="card-body">
-				<h5 class="card-title">Rating & Reviews</h5>
-				<p class="card-text">Content</p>
-			</div>
-		</div>
-	</div>
-</div>
+
 
 
 <!--Similar products section start here-->
