@@ -74,6 +74,16 @@
 				</div>
 				<p class="products_details_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis eius quibusdam earum perspiciatis at ullam iusto ipsum incidunt sit!</p>
 				<button class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</button>
+				<div class="reviews">
+	<div class="container">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Rating & Reviews</h5>
+				<p class="card-text"></p>
+			</div>
+		</div>
+	</div>
+</div>
 			</div>
 		</div>
 	</div>
@@ -122,6 +132,19 @@
 </div>
 	</div>
 </section>
+
+<!--Div for reviews-->
+<div class="reviews">
+	<div class="container">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Rating & Reviews</h5>
+				<p class="card-text"></p>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <!--Similar products section start here-->
 <section class="similar_products">
