@@ -172,6 +172,74 @@ a {
 .slick-next:before {
   color: black; }
 
+footer {
+  padding: 60px 0;
+  color: #f0f9ff;
+  background-color: #000; }
+
+footer h3 {
+  font-weight: bold;
+  font-size: 16px; }
+
+footer h3 + p,
+footer ul a {
+  color: #f1f1f1; }
+
+footer .item.social {
+  text-align: center; }
+
+footer .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.65; }
+
+footer .item.social > a:hover {
+  opacity: 1;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9); }
+
+footer .fa-facebook {
+  color: #3b5998; }
+
+footer .fa-twitter {
+  color: #00acee; }
+
+footer .fa-snapchat {
+  color: #fffc00; }
+
+footer .fa-instagram {
+  color: #3f729b; }
+
+footer .copyright {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 13px;
+  margin-bottom: 0; }
+
+.stickey-icons {
+  position: fixed;
+  z-index: 555;
+  bottom: 0;
+  background-color: #fff;
+  font-weight: 400; }
+
+.stickey-icons a {
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  color: #333; }
+
+.stickey-icons a.active,
+.stickey-icons a:active,
+.stickey-icons a:hover {
+  color: #d63031; }
+
 /* Products Page start here*/
 .breadcrumb_content .container {
   max-width: 100%;
