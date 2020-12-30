@@ -120,7 +120,7 @@
 			</div>
 		</div>
 		<div class="viewAll">
-			<a href="#FIXME" title="View All">View All</a>
+			<a href="products.php" title="View All">View All</a>
 		</div>
 	</div>
 </section>
@@ -221,7 +221,7 @@
 			</div>
 		</div>
 		<div class="viewAll">
-			<a href="#FIXME" title="View All">View All</a>
+			<a href="products.php" title="View All">View All</a>
 		</div>
 	</div>
 </section>
@@ -343,7 +343,7 @@
 		</div>
 		</div>
 		<div class="viewAll">
-			<a href="#FIXME" title="View All">View All</a>
+			<a href="products.php" title="View All">View All</a>
 		</div></div>
 </section>
 
@@ -464,7 +464,7 @@
 		</div>
 		</div>
 		<div class="viewAll">
-			<a href="#FIXME" title="View All">View All</a>
+			<a href="products.php" title="View All">View All</a>
 		</div></div>
 </section>
 
