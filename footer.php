@@ -5,7 +5,7 @@
 					<div class="row">
 						<div class="col-6 col-md-3 mb-4">
 							<h3 class="mb-2">Services</h3>
-							<ul class="d-flex flex-column">
+							<ul class="d-flex flex-column pl-0">
 								<li><a href="#">Web design</a></li>
 								<li><a href="#">Development</a></li>
 								<li><a href="#">Hosting</a></li>
@@ -13,7 +13,7 @@
 						</div>
 						<div class="col-6 col-md-3 mb-4">
 							<h3 class="mb-2">About</h3>
-							<ul class="d-flex flex-column">
+							<ul class="d-flex flex-column pl-0">
 								<li><a href="#">Company</a></li>
 								<li><a href="#">Team</a></li>
 								<li><a href="#">Careers</a></li>
@@ -68,60 +68,11 @@
         </div>
     </div>
 </div>
-
-		<!-- bootstarp js -->
-		<!-- <script src="assets/vendor/jquery/jquery.min.js" ></script> -->
-		<script src="assets/vendor/jquery/jquery-2.2.0.min.js"></script>
-		<script src="assets/bootstrap/js/popper.min.js" ></script>
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
-		<!-- slick js -->
-		<script src="assets/vendor/slick/slick.min.js"></script>
-
-		<!-- chart js -->
-		<script src="assets/vender/chart/chart.min.js"></script> 
-
-		<!-- aos js -->
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-
-		<!-- custome js -->
-		<script src="assets/js/bs-animation.js"></script>
-		<script src="assets/js/bs-charts.js"></script>
-		<script src="assets/js/dropdown-search-bs4.js"></script>
-		<script src="assets/js/product-viewer-1.js"></script>
-		<script src="assets/js/table-with-search.js"></script>
-		<script src="assets/js/script.js"></script>
-		<!-- custome js -->
-
-
-<script type="text/javascript">
-    $(document).ready(function(){
-    
-    $('.ccount').load('Sopping_cart_add.php',function(){
-        //$('#myModal').modal({show:true});
-    });
-    
-    
-    $("form").on("submit", function(event){
-        event.preventDefault();
- 
-        var formValues= $(this).serialize();
- 
-        $.post("Sopping_cart_add.php?action=add", formValues, function(data){
-            // Display the returned data in browser
-            $("#result").html(data);
-        });
-        
-         $('.ccount').load('Sopping_cart_add.php',function(){
-        //$('#myModal').modal({show:true});
-    });
-        
-    });
-    
-});	
-</script>
-
-		
-	</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/vendor/slick/slick.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
 
 </html>
