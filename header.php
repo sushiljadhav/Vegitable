@@ -45,7 +45,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 }
 
 .slick-slide img {
-    width: 90%;
+    width: 100%;
     border: 0px solid #fff
 }
 
@@ -135,17 +135,17 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 						<ul class="nav-right nav navbar-nav ml-auto  align-items-center flex-wrap m-0">
 								<li class="nav-item mr-2">
 										<span class="navbar-text actions cart">
-													<a class="login nav-link text-white" href="shoppingcart.php">
+													<a class="login nav-link text-white" href="cart.php">
 															<i class="fa fa-shopping-cart "></i>
 															<span class="badge cart-item p-0  m-0 " style="font-size: 14px; font-weight: 500;color: #ffb142">1</span>
 												</a>
 										</span>
 								</li>
 								<li class="nav-item mr-2">
-										<a href="#FIXME" class="login text-white nav-link" href="login.php">Log In</a>
+										<a href="login.php" class="login text-white nav-link" href="login.php">Log In</a>
 								</li>
 								<li class="nav-item mr-2">
-										<a href="#FIXME" class="py-1 text-white nav-link" role="button" href="register.php">Sign Up</a></span>
+										<a href="register.php" class="py-1 text-white nav-link" role="button" href="register.php">Sign Up</a></span>
 								</li>
 								<li class="nav-item dropdown">
 										<a href="#FIXME" class="nav-link dropdown-toggle text-white" data-toggle="dropdown" aria-expanded="false" style="cursor: pointer">

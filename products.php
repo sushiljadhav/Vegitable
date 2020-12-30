@@ -170,15 +170,21 @@
 									</div>
 									<div class="row">
 										<div class="col-xl-6 col">
-											<div class="btn btn-primary btn-sm view_details">
-												Details
-											</div>
+										<a href="productsDetails.php" class="btn btn-primary btn-sm view_details">
+										Details
+										</a>
+											<!-- <div class="btn btn-primary btn-sm view_details">
+												
+											</div> -->
 										</div>
 										<div class="col-xl-6 col">
-										<div class="btn btn-primary btn-sm ">
+										<a href="cart.php"  class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
-											</div>
+										</a>
+										<!-- <div class="btn btn-primary btn-sm ">
+									
+											</div> -->
 										</div>
 									</div>
 								</div>
@@ -475,12 +481,10 @@
 					</div>
 				</div>
 		</div>
-		<?php include('footer.php')?>
+	
 	</div>
 </section>
-
-
 </main>
-
+<?php include('footer.php')?>
 
 

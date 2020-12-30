@@ -13,110 +13,113 @@
 	</div>
 
 
-<section class="products_details">
-	<div class="container">
-		<div class="row">
-			<div class="col-xl-5 col-md-5">
+<section class="products_details_more">
+
+	<div class="products_details">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
-					<ul class="row products_images_slider">
-						<li>
-							<figure>
+				<div class="col-xl-5 col-md-5">
+				<div class="row">
+					<div class="col-md-2">
+						<ul class="row products_images_slider">
+							<li>
+								<figure>
+								<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable two">
+								</figure>
+							</li>
+							<li>
+								<figure>
+								<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable three">
+								</figure>
+							</li>
+							<li>
+								<figure>
+								<img src="assets/image/vegitable/vegi_Four.jpg" alt="Vegitable Four">
+								</figure>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-10 col-xl-10 ">
+						<figure>
 							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable two">
-							</figure>
-						</li>
-						<li>
-							<figure>
-							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable three">
-							</figure>
-						</li>
-						<li>
-							<figure>
-							<img src="assets/image/vegitable/vegi_Four.jpg" alt="Vegitable Four">
-							</figure>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-10 col-xl-10 ">
-					<figure>
-						<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
-					</figure>
-					<div class="row products_details_button">
-						<div class="col">
-							<button class="btn btn-primary">
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-								Add To cart
-							</button>
-						</div>
-						<div class="col">
-							<button class="btn btn-primary">
-								Buy Now
-							</button>
+						</figure>
+						<div class="row products_details_button">
+							<div class="col">
+								<button class="btn btn-primary">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+									Add To cart
+								</button>
+							</div>
+							<div class="col">
+								<button class="btn btn-primary buy_now">
+									Buy Now
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			</div>
-			<div class="col-xl-7 col-md-7 ">
-				<h5>Fresho</h3>
-				<h3>Fresho Onion - Medium/Kanda- Madhyam, 1 kg</h3>
-				<span class="products_price"><span class="original_price">MRP:Rs 61.25</span> <span class="discount_price">Price:Rs 49</span> You Save:20%(Inclusive of all taxes)</span>
-				<div class="form-group">
-					<label class="sr-only" for="inlineFormInputGroup">Username</label>
-					<div class="input-group mb-2">
-						<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1" min="1">
-					</div>
 				</div>
-				<p class="products_details_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis eius quibusdam earum perspiciatis at ullam iusto ipsum incidunt sit!</p>
-				<button class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</button>
-				<div class="reviews">
-					<div class="card">
-						<div class="card-body">
-							<h5 class="card-title">Rating & Reviews</h5>
-							<div class="card-text">
-								<div class="row">
-									<div class="col-md-3">
-										<span>3.2 <i class="fa fa-star" aria-hidden="true"></i></span>
-									</div>
-									<div class="col-md-9">
-										<h4 class="small font-weight-bold">32 reviews<span class="float-right">5 <i class="fa fa-star" aria-hidden="true"></i></span></h4>
-										<div class="progress mb-1">
-												<div class="progress-bar bg-success" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">20%</span></div>
+				<div class="col-xl-7 col-md-7 ">
+					<h5>Fresho</h5>
+					<h3>Fresho Onion - Medium/Kanda- Madhyam, 1 kg</h3>
+					<span class="products_price"><span class="original_price">MRP:Rs 61.25</span> <span class="discount_price">Price:Rs 49</span> You Save:20%(Inclusive of all taxes)</span>
+					<div class="form-group">
+						<label class="sr-only" for="inlineFormInputGroup">Username</label>
+						<div class="input-group mb-2">
+							<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1" min="1">
+						</div>
+					</div>
+					<p class="products_details_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis eius quibusdam earum perspiciatis at ullam iusto ipsum incidunt sit!</p>
+					<button class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</button>
+					<div class="reviews">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Rating & Reviews</h5>
+								<div class="card-text">
+									<div class="row">
+										<div class="col-md-3">
+											<span>3.2 <i class="fa fa-star" aria-hidden="true"></i></span>
 										</div>
-										<h4 class="small font-weight-bold">29 reviews<span class="float-right">4 <i class="fa fa-star" aria-hidden="true"></i></h4>
-										<div class="progress mb-1">
-												<div class="progress-bar bg-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">40%</span></div>
+										<div class="col-md-9">
+											<h4 class="small font-weight-bold">32 reviews<span class="float-right">5 <i class="fa fa-star" aria-hidden="true"></i></span></h4>
+											<div class="progress mb-1">
+													<div class="progress-bar bg-success" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">20%</span></div>
+											</div>
+											<h4 class="small font-weight-bold">29 reviews<span class="float-right">4 <i class="fa fa-star" aria-hidden="true"></i></h4>
+											<div class="progress mb-1">
+													<div class="progress-bar bg-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">40%</span></div>
+											</div>
+											<h4 class="small font-weight-bold">24 reviews<span class="float-right">3 <i class="fa fa-star" aria-hidden="true"></i></h4>
+											<div class="progress mb-1">
+													<div class="progress-bar bg-warning" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+											</div>
+											<h4 class="small font-weight-bold">2 reviews<span class="float-right">2 <i class="fa fa-star" aria-hidden="true"></i></h4>
+											<div class="progress mb-1">
+													<div class="progress-bar bg-danger" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="sr-only">80%</span></div>
+											</div>
+											<h4 class="small font-weight-bold">1 reviews<span class="float-right">1 <i class="fa fa-star" aria-hidden="true"></i></h4>
+											<div class="progress mb-1">
+												<div class="progress-bar bg-danger" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">100%</span></div>
 										</div>
-										<h4 class="small font-weight-bold">24 reviews<span class="float-right">3 <i class="fa fa-star" aria-hidden="true"></i></h4>
-										<div class="progress mb-1">
-												<div class="progress-bar bg-warning" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
-										</div>
-										<h4 class="small font-weight-bold">2 reviews<span class="float-right">2 <i class="fa fa-star" aria-hidden="true"></i></h4>
-										<div class="progress mb-1">
-												<div class="progress-bar bg-danger" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="sr-only">80%</span></div>
-										</div>
-										<h4 class="small font-weight-bold">1 reviews<span class="float-right">1 <i class="fa fa-star" aria-hidden="true"></i></h4>
-										<div class="progress mb-1">
-											<div class="progress-bar bg-danger" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">100%</span></div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>		
+						</div>		
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+</div>
+</div>
 
-</section>
 
 <!-- Accordion section start here-->
-<section class="products_details_accordion">
+<div class="products_details_accordion">
 	<div class="container">
 	<h2>Fresho Onion - Medium/Kanda- Madhyam</h2>
 	<div class="accordion" id="accordionExample">
@@ -153,17 +156,18 @@
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
       </div>
     </div>
-  </div>
-</div>
 	</div>
-</section>
+</div>
+
+</div>
+</div>
 
 <!--Div for reviews-->
 
 
 
 <!--Similar products section start here-->
-<section class="similar_products">
+<div class="products_similar_products ">
 	<div class="container">
 	<h2>Similar Products</h2>
 		<div class="row products_slider">
@@ -497,6 +501,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
-
 <?php include("footer.php")?>
