@@ -1,0 +1,27 @@
+.my-orders {
+  .container {
+    max-width: 100%;
+    width: 95%;
+    #example_wrapper {
+      .row {
+        margin-bottom: 50px;
+      }
+    }
+    .custom-select {
+      width: 20%;
+      margin: 0 10px;
+    }
+    [type="search"] {
+      margin: 0 2%;
+      width: 50%;
+    }
+    label {
+      font-size: 17px;
+      font-weight: 900;
+      font-family: "Lato";
+    }
+    .page-link {
+      margin-left: auto;
+    }
+  }
+}

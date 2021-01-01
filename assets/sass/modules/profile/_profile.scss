@@ -1,0 +1,52 @@
+.myprofile {
+  .container {
+    width: 95%;
+    max-width: 1360px;
+    padding: 0;
+    margin: 0 auto;
+    .myprofile_details {
+      .myprofile_details_header {
+        .profile_name {
+          width: 25%;
+          margin: 0 auto;
+          border-radius: 2px;
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+          .fs-12 {
+            font-size: 12px;
+          }
+          .fs-16 {
+            font-size: 16px;
+            font-weight: 900;
+          }
+        }
+      }
+    }
+    .my_profile_tabs {
+      .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        label {
+          font-family: lato;
+          font-weight: 600;
+          font-size: 15px;
+        }
+        h5 {
+          font-size: 17px;
+          font-weight: 900;
+          font-family: "Lato";
+        }
+        p {
+          font-size: 15px;
+          font-weight: 900;
+          font-family: "Lato";
+        }
+        .text-light-gray {
+          font-size: 20px;
+          font-weight: 900;
+          font-family: "Lato";
+          color: #999 !important;
+        }
+      }
+    }
+  }
+}

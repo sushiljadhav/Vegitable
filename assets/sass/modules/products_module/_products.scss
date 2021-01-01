@@ -23,6 +23,8 @@
       letter-spacing: 0.5px;
       h5 {
         font-weight: 900 !important;
+        font-size: 20px;
+        font-family: "Lato", sans-serif;
       }
       .search {
         position: relative;
@@ -58,6 +60,18 @@
         padding: 0;
         margin-bottom: 10px;
         padding-left: 4%;
+        a {
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 800;
+          color: #007bff;
+        }
+        label {
+          font-family: "Lato";
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-size: 13px;
+        }
       }
       .form-check-input {
         position: static;

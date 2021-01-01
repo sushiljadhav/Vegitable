@@ -77,7 +77,7 @@
 				<hr>
 				<div class="row">
 					<div class="col">
-					<a href="#" class="btn btn-dark border">Checkout</a>
+					<a href="checkout.php" class="btn btn-dark border">Checkout</a>
 					</div>
 					<!-- <div class="col justify-content-end">
 					<a href="#" class="btn btn-primary">Go somewhere</a>

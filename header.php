@@ -52,7 +52,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 .nav-right li { list-style: none;}
 
 .nav-right li a{
-    color: #fff;
+  
     font-size: 14px;
     text-decoration: none;
     }
@@ -85,7 +85,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 									<a class="nav-link text-white" href="#">Contact Us</a>
 								</li>
 								<!-- <li class="nav-item mr-3" role="presentation"></li> -->
-								<li class="nav-item dropdown megamenu mr-2">
+								<!-- <li class="nav-item dropdown megamenu mr-2">
 									<a class="dropdown-toggle nav-link text-white" data-toggle="dropdown" aria-expanded="false" href="#">Mega Menu</a>
 									<div class="dropdown-menu animate slideIn" role="menu" style="background-color: #8ea7ff;">
 										<div class="container" style="padding-top: 35px;padding-bottom: 35px;">
@@ -119,7 +119,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 											</div>
 										</div>
 									</div>
-								</li>
+								</li> -->
 								<li class="nav-item dropdown">
 									<a href="#FIXME" class="dropdown-toggle nav-link text-white" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown</a>
 									<div class="dropdown-menu" role="menu">
@@ -154,7 +154,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 										<div class="dropdown-menu" role="menu">
 												<a href="myprofile.php" class="dropdown-item" role="presentation">My Profile</a>
 												<a href="myorders.php" class="dropdown-item" role="presentation" >My Orders</a>
-												<a href="./settings.php" class="dropdown-item" role="presentation">Settings</a>
+												<a href="index.php" class="dropdown-item" role="presentation">logout</a>
 										</div>
 								</li>
 						</ul>      

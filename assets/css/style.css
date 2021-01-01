@@ -262,7 +262,9 @@ footer .copyright {
     border-right: 1px solid #dddddd;
     letter-spacing: 0.5px; }
     .all_products .container .col-xl-2 h5 {
-      font-weight: 900 !important; }
+      font-weight: 900 !important;
+      font-size: 20px;
+      font-family: "Lato", sans-serif; }
     .all_products .container .col-xl-2 .search {
       position: relative; }
       .all_products .container .col-xl-2 .search .fa-search {
@@ -290,6 +292,16 @@ footer .copyright {
       padding: 0;
       margin-bottom: 10px;
       padding-left: 4%; }
+      .all_products .container .list-group .list-group-item a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 800;
+        color: #007bff; }
+      .all_products .container .list-group .list-group-item label {
+        font-family: "Lato";
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 13px; }
     .all_products .container .list-group .form-check-input {
       position: static;
       margin-left: 0; }
@@ -328,9 +340,10 @@ footer .copyright {
   width: 100%;
   margin-bottom: 50px; }
   .products_details .container .row .col-xl-7 h5 {
-    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 3px; }
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Lato", sans-serif; }
   .products_details .container .row .col-xl-7 h3 {
     font-weight: bold;
     font-size: 20px;
@@ -369,6 +382,11 @@ footer .copyright {
       margin-right: 13%; }
   .products_details .container .row .reviews {
     margin-top: 30px; }
+    .products_details .container .row .reviews .col-md-3 {
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-family: "Lato", sans-serif; }
   .products_details .container .products_images_slider {
     padding-inline-start: 0.8rem; }
   .products_details .container .products_details_button .btn {
@@ -584,5 +602,122 @@ footer .copyright {
   color: #6f7a85;
   opacity: 0.9;
   text-decoration: none; }
+
+.cart .container {
+  padding-top: 30px;
+  margin-bottom: 50px; }
+  .cart .container h2 {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    line-height: 23px; }
+  .cart .container table th {
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: bolder;
+    margin-bottom: 30px; }
+  .cart .container table td {
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bolder;
+    margin-bottom: 30px; }
+
+.checkout_card .container {
+  margin-bottom: 100px; }
+  .checkout_card .container .card {
+    border-radius: 0px;
+    border: none; }
+    .checkout_card .container .card .card-header {
+      border-radius: 0px;
+      box-shadow: 1px 2px 8px -1px #181616b3;
+      background-color: #28a745;
+      color: #fff; }
+      .checkout_card .container .card .card-header h5 {
+        font-size: 18px;
+        font-family: "Roboto";
+        letter-spacing: 1.4px; }
+      .checkout_card .container .card .card-header hr {
+        color: #fff;
+        border-top: 1px solid #ffffff6b;
+        margin-bottom: 3px; }
+    .checkout_card .container .card .card-body {
+      border: 1px solid #80808038;
+      border-top: none; }
+      .checkout_card .container .card .card-body .row .col-xl-6 .row .col span {
+        font-size: 14px;
+        font-family: "Lato";
+        margin-bottom: 30px;
+        letter-spacing: 1px; }
+      .checkout_card .container .card .card-body .row .col-xl-6 .row .col h4 {
+        font-size: 19px;
+        font-weight: 700;
+        font-family: "Lato";
+        letter-spacing: 1px; }
+      .checkout_card .container .card .card-body .row .col-xl-6 .row .col a {
+        border-radius: 0px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: "Lato";
+        background-color: #18ff7f;
+        color: #fff;
+        border: none !important;
+        box-sizing: border-box; }
+        .checkout_card .container .card .card-body .row .col-xl-6 .row .col a:hover {
+          box-shadow: 2px 2px 2px 1px #7d7d7dba; }
+
+.myprofile .container {
+  width: 95%;
+  max-width: 1360px;
+  padding: 0;
+  margin: 0 auto; }
+  .myprofile .container .myprofile_details .myprofile_details_header .profile_name {
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08); }
+    .myprofile .container .myprofile_details .myprofile_details_header .profile_name .fs-12 {
+      font-size: 12px; }
+    .myprofile .container .myprofile_details .myprofile_details_header .profile_name .fs-16 {
+      font-size: 16px;
+      font-weight: 900; }
+  .myprofile .container .my_profile_tabs .row {
+    margin-left: 0px;
+    margin-right: 0px; }
+    .myprofile .container .my_profile_tabs .row label {
+      font-family: lato;
+      font-weight: 600;
+      font-size: 15px; }
+    .myprofile .container .my_profile_tabs .row h5 {
+      font-size: 17px;
+      font-weight: 900;
+      font-family: "Lato"; }
+    .myprofile .container .my_profile_tabs .row p {
+      font-size: 15px;
+      font-weight: 900;
+      font-family: "Lato"; }
+    .myprofile .container .my_profile_tabs .row .text-light-gray {
+      font-size: 20px;
+      font-weight: 900;
+      font-family: "Lato";
+      color: #999 !important; }
+
+.my-orders .container {
+  max-width: 100%;
+  width: 95%; }
+  .my-orders .container #example_wrapper .row {
+    margin-bottom: 50px; }
+  .my-orders .container .custom-select {
+    width: 20%;
+    margin: 0 10px; }
+  .my-orders .container [type="search"] {
+    margin: 0 2%;
+    width: 50%; }
+  .my-orders .container label {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Lato"; }
+  .my-orders .container .page-link {
+    margin-left: auto; }
 
 /*# sourceMappingURL=style.css.map */
