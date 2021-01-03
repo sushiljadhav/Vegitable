@@ -18,7 +18,7 @@
 <section class="all_products">
 	<div class="container">
 			<div class="row">
-				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 product_details_filter">
+				<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 product_details_filter">
 					<div class="filter_content">
 					<ul class="list-group">
 						<li class="list-group-item">
@@ -140,10 +140,10 @@
 					</ul>
 					</div>
 				</div>
-				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+				<div class="col-xl-10 col-lg-10 col-md-9 col-sm-8">
 					<p>Product details</p>	
 					<div class="row">
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -169,7 +169,7 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 										<a href="productsDetails.php" class="btn btn-primary btn-sm view_details">
 										Details
 										</a>
@@ -177,7 +177,7 @@
 												
 											</div> -->
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<a href="cart.php"  class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -190,7 +190,7 @@
 								</div>
 							</a>
 						</div>	
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -216,12 +216,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 												Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -231,7 +231,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -257,12 +257,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 											Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -272,7 +272,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -298,12 +298,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 											 Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -313,7 +313,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -339,12 +339,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 											 Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -354,7 +354,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -380,12 +380,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 											 Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -395,7 +395,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -421,12 +421,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 											 Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
@@ -436,7 +436,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-xl-3 col-md-3 col-lg-3 col-sm-3">
+						<div class="col-xl-3 col-md-4 col-lg-3 col-sm-6 col-xs-6">
 							<a href="#FIXME" title="Strawberry">
 								<div class="card_content">
 									<figure>
@@ -462,12 +462,12 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
 											<div class="btn btn-primary btn-sm view_details">
 												Details
 											</div>
 										</div>
-										<div class="col-xl-6 col">
+										<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 										<div class="btn btn-primary btn-sm ">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add

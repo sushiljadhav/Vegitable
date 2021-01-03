@@ -69,21 +69,24 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 <body>
 <header>
 		<div class="container">
-			<nav class="navbar navbar-expand-lg py-2 text-white" style="background-color: #197e00; box-shadow: 10px 2px 10px rgba(0,0,0,0.5);">
+			<!-- <nav class="navbar navbar-expand-lg py-2 text-white" style="background-color: #197e00; box-shadow: 10px 2px 10px rgba(0,0,0,0.5);">
 				<div class="container-fluid">
-					<a class="navbar-brand brand p-0" href="index.php">Vegitable</a>
+					<a class="navbar-brand brand p-0" href="index.php"><img src="http://via.placeholder.com/100X50/FFFFFF/000000?text=logo" alt="logo"></a>
 					<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse d-flex align-items-center flex-wrap "id="navcol-1">
 						<ul class="nav navbar-nav mr-auto">
-								<li class="nav-item mr-2" role="presentation">
-									<a class="nav-link text-white" href="#">About Us</a>
+						<li class="nav-item mr-2" role="presentation">
+									<a class="nav-link text-white" href="index.php" title="Home">Home</a>
 								</li>
 								<li class="nav-item mr-2" role="presentation">
-									<a class="nav-link text-white" href="#">Contact Us</a>
+									<a class="nav-link text-white" href="#" title="About Us">About Us</a>
 								</li>
+								<li class="nav-item mr-2" role="presentation">
+									<a class="nav-link text-white" href="#" title="Contact us">Contact Us</a>
+								</li> -->
 								<!-- <li class="nav-item mr-3" role="presentation"></li> -->
 								<!-- <li class="nav-item dropdown megamenu mr-2">
 									<a class="dropdown-toggle nav-link text-white" data-toggle="dropdown" aria-expanded="false" href="#">Mega Menu</a>
@@ -120,7 +123,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 										</div>
 									</div>
 								</li> -->
-								<li class="nav-item dropdown">
+								<!-- <li class="nav-item dropdown">
 									<a href="#FIXME" class="dropdown-toggle nav-link text-white" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown</a>
 									<div class="dropdown-menu" role="menu">
 										<a class="dropdown-item" role="presentation" href="#">First Item</a>
@@ -128,11 +131,11 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 										<a class="dropdown-item" role="presentation" href="#">Third Item</a>
 									</div>
 								</li>
-						</ul>
+						</ul> -->
 						<!--<div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Baby</button>
 								<div class="dropdown-menu"><input type="text" class="form-control dropdown-search-input" placeholder="Search.."><a class="dropdown-item" href="#">Angular</a><a class="dropdown-item" href="#">Java</a><a class="dropdown-item" href="#">JavaScript</a></div>
 						</div>-->
-						<ul class="nav-right nav navbar-nav ml-auto  align-items-center flex-wrap m-0">
+						<!-- <ul class="nav-right nav navbar-nav ml-auto  align-items-center flex-wrap m-0">
 								<li class="nav-item mr-2">
 										<span class="navbar-text actions cart">
 													<a class="login nav-link text-white" href="cart.php">
@@ -149,7 +152,7 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 								</li>
 								<li class="nav-item dropdown">
 										<a href="#FIXME" class="nav-link dropdown-toggle text-white" data-toggle="dropdown" aria-expanded="false" style="cursor: pointer">
-												<i class="far fa-user text-success pr-1"></i>Onkar Kumbhar
+										<i class="fa fa-user-o bg-warning p-2 fs-10 rounded-circle text-white mr-2" aria-hidden="true"></i>sushil jadhav
 										</a>
 										<div class="dropdown-menu" role="menu">
 												<a href="myprofile.php" class="dropdown-item" role="presentation">My Profile</a>
@@ -160,7 +163,98 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 						</ul>      
 					</div>
 				</div>
-			</nav>
+			</nav> -->
+			<nav class="navbar navbar-dark navbar-expand-lg  py-2">
+				<a class="navbar-brand brand p-0" href="index.php"><img src="http://via.placeholder.com/100X50/FFFFFF/000000?text=logo" alt="logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link text-white" href="index.php">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="about-us.php">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="index.php#ContactUs">Contact Us</a>
+						</li>
+						<!--<li class="nav-item dropdown megamenu">
+							<a class="nav-link text-white dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Mega Menu
+							</a>
+							<div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown" role="menu" style="background-color:#fff;">
+										<div class="container" style="padding: 30px 0">
+															<div class="row">
+																	<div class="col-md-4">
+																			<h1>Title</h1>
+																			<hr style="background-color: #e4e4e4;">
+																			<h5 class="pb-2">Title 1</h5>
+																			<h5 class="pb-2">Title 2</h5>
+																			<h5 class="pb-2">Title 3</h5>
+																			<h5 class="pb-2">Title 4</h5>
+																			<h5 class="pb-2">Title 5</h5>
+																			<h5 class="pb-2">Title 6</h5>
+																			<h5 class="pb-2">Title 7</h5>
+																	</div>
+																	<div class="col-md-4">
+																			<h1>Title</h1>
+																			<hr style="background-color: #e4e4e4;">
+																			<h5 class="pb-2">Title 1</h5>
+																			<h5 class="pb-2">Title 2</h5>
+																			<h5 class="pb-2">Title 3</h5>
+																			<h5 class="pb-2">Title 4</h5>
+																			<h5 class="pb-2">Title 5</h5>
+																			<h5 class="pb-2">Title 6</h5>
+																			<h5 class="pb-2">Title 7</h5>
+																	</div>
+																	<div class="col-md-4">
+																			<h1>Title</h1>
+																			<hr style="background-color: #e4e4e4;"><img class="img-fluid" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80"></div>
+															</div>
+													</div>
+											</div>
+						</li>-->
+						<li class="nav-item dropdown">
+							<a class="nav-link text-white dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+								<div class="dropdown-menu animate slideIn" role="menu">
+													<a class="dropdown-item" role="presentation" href="#!">First Item</a>
+													<a class="dropdown-item" role="presentation" href="#!">Second Item</a>
+													<a class="dropdown-item" role="presentation" href="#!">Third Item</a>
+									</div>
+						</li>
+					</ul>
+					<ul class="form-inline align-items-baseline navbar-nav my-2 my-lg-0">
+						<li class="nav-item">
+							<span class="actions cart">
+								<a class="login nav-link text-white" href="cart.php">
+									<i class="fa fa-shopping-cart "></i>
+									<span id="ccount" class="ccount badge cart-item p-0  m-0 " style="font-size: 14px; font-weight: 500;color: #ffb142">0</span>
+								</a>
+							</span>
+						</li>
+						<li class="nav-item">
+								<a href="login.php" class="login text-white nav-link">Log In</a>
+						</li>
+						<li class="nav-item">
+								<a href="register.php" class="text-white nav-link" role="button">Sign Up</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#FIXME" class="nav-link dropdown-toggle text-white" data-toggle="dropdown" aria-expanded="false" style="cursor: pointer">
+							<i class="fa fa-user-o bg-warning p-2 fs-10 rounded-circle text-white mr-2" aria-hidden="true"></i>sushil jadhav
+							</a>
+							<div class="dropdown-menu" role="menu">
+									<a href="myprofile.php" class="dropdown-item" role="presentation">My Profile</a>
+									<a href="myorders.php" class="dropdown-item" role="presentation" >My Orders</a>
+									<a href="index.php" class="dropdown-item" role="presentation">logout</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+    	</nav>
 		</div>
 </header>
 

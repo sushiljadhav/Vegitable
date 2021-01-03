@@ -472,7 +472,7 @@
 <section class="contact_us">
 	<div class="container">
 	<div class="row">
-	<div class="col-md-7">
+	<div class="col-xl-7 col-md-10 col-lg-10 col-sm-10 col-12">
 	<h3>Contact Us</h3>
 		<form>
 			<div class="form-group">

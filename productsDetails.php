@@ -18,9 +18,9 @@
 	<div class="products_details">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-5 col-md-5">
+				<div class="col-xl-5 col-md-5 col-sm-12">
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-md-2 col-sm-2 col-2 col-xs-5">
 						<ul class="row products_images_slider">
 							<li>
 								<figure>
@@ -44,7 +44,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-10 col-xl-10 ">
+					<div class="col-md-10 col-xl-10 col-sm-10 col-10 col-xs-5">
 						<figure>
 							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
 						</figure>

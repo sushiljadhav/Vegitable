@@ -45,6 +45,9 @@
       .btn {
         i {
           margin-right: 13%;
+          @media only screen and (max-width: 540px) {
+            margin-right: 5%;
+          }
         }
         width: 30%;
         border: none;
@@ -55,6 +58,9 @@
         font-weight: 700;
         text-transform: capitalize;
         margin-bottom: 10px;
+        @media only screen and (max-width: 540px) {
+          width: 100%;
+        }
       }
       .reviews {
         margin-top: 30px;
@@ -94,11 +100,18 @@
     max-width: 100%;
     width: 86%;
     margin-bottom: 80px;
+    @media only screen and (max-width: 540px) {
+      width: 100%;
+    }
     h2 {
       font-weight: bold;
       font-size: 25px;
       margin-bottom: 30px;
       font-family: "Lato", sans-serif;
+      @media only screen and (max-width: 540px) {
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
     }
     .card {
       border-radius: 0px;

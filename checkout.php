@@ -31,7 +31,7 @@
 								<label for="inputAddress2">Address 2</label>
 								<input type="text" class="form-control form-control-sm" id="inputAddress2" placeholder="Apartment, studio, or floor">
 							</div>
-							<div class="form-row">
+							<div class="form-row mb-3">
 								<div class="form-group col-md-6">
 									<label for="inputCity">City</label>
 									<input type="text" class="form-control form-control-sm" id="inputCity">
@@ -48,15 +48,7 @@
 									<input type="text" class="form-control" id="inputZip">
 								</div>
 							</div>
-							<div class="form-group">
-								<div class="form-check">
-									<input class="form-check-input " type="checkbox" id="gridCheck">
-									<label class="form-check-label" for="gridCheck">
-										Check me out
-									</label>
-								</div>
-							</div>
-							<button type="submit" class="btn btn-primary">Sign in</button>
+							<button type="submit" class="btn btn-success btn-sm">Proceed to pay</button>
 						</form>
 						</div>
 					</div>

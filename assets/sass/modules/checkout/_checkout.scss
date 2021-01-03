@@ -1,4 +1,26 @@
 .checkout {
   .container {
+    label {
+      font-size: 15px;
+      font-weight: 300;
+      font-family: sans-serif;
+    }
+    .btn-success {
+      border-radius: 0;
+      font-size: 14px !important;
+      font-weight: 300;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+      display: block;
+
+      box-shadow: 3px 2px 5px 0px #6e6e6e;
+    }
+    h5,
+    h6 {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 10px;
+      font-family: "Lato", sans-serif;
+    }
   }
 }
