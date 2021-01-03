@@ -39,7 +39,7 @@
 							</li>
 							<li>
 								<figure>
-								<img src="assets/image/vegitable/vegi_Four.jpg" alt="Vegitable Four">
+								<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable Four">
 								</figure>
 							</li>
 						</ul>
