@@ -35,3 +35,20 @@ $(document).ready(function(){
 			]
 	});
 });  
+
+// View cart button show
+$(document).ready(()=> {
+	var $button = $('#add-btn');
+	$button.click((e)=>{
+		$(e.target).css("display","none");
+		$('<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"><a href="cart.php" class="btn btn-primary btn-sm view_details">View Cart</a> </div>').appendTo('.add-cart-btn');
+	})
+});
+
+//Image change on click
+
+$(document).ready(()=>{
+	$(".products_images_slider_side li").click((e)=>{
+		var $productImage = $(".product_image figure img").attr("src",$(e.target).attr("src"));
+	})	
+});

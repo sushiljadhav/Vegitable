@@ -325,17 +325,14 @@
 											<input type="Number" class="form-control form-control-sm" id="inlineFormInputGroup" placeholder="1">
 										</div>
 									</div>
-									<div class="row">
+									<div class="row ">
 										<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 										<a href="productsDetails.php" class="btn btn-primary btn-sm view_details">
 										Details
 										</a>
-											<!-- <div class="btn btn-primary btn-sm view_details">
-												
-											</div> -->
 										</div>
-										<div class="col-xl-6 col-lg-6 col-md-6  col-sm-12">
-										<a href="cart.php"  class="btn btn-primary btn-sm ">
+										<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 add-cart-btn">
+										<a href="#FIXME"  class="btn btn-primary btn-sm" id="add-btn">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										Add
 										</a>
