@@ -19,6 +19,12 @@
     color: #000;
     font-weight: 900;
     .col-xl-2 {
+      @media (max-width: 995px) {
+        display: none;
+      }
+    }
+    .col-xl-2,
+    .col-xl-12 {
       border-right: 1px solid #dddddd;
       letter-spacing: 0.5px;
       h5 {
@@ -120,5 +126,18 @@
         }
       }
     }
+  }
+}
+
+.refine {
+  display: none;
+  margin-left: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  @media (max-width: 995px) {
+    display: block;
   }
 }
