@@ -52,3 +52,40 @@ $(document).ready(()=>{
 		var $productImage = $(".product_image figure img").attr("src",$(e.target).attr("src"));
 	})	
 });
+
+
+$(document).ready(()=>{
+	sessionStorage.clear();
+	if ("geolocation" in navigator){ //check geolocation available 
+		//try to get user current location using getCurrentPosition() method
+		navigator.geolocation.getCurrentPosition(function(position){ 
+			var $latitude = position.coords.latitude
+			console.log($latitude);
+			var $longitude = position.coords.longitude;
+			console.log($longitude);
+			$('#loc').text('We think you\'re at (' +
+			Math.round(position.coords.longitude) + ', ' +
+			Math.round(position.coords.latitude) +
+			'). If not, pick:');
+$('#popup').removeClass('hidden');
+
+		$.ajax({
+			url: "session.php",
+			method: "POST",
+		
+			data: {
+				x: position.coords.latitude,
+				y: position.coords.longitude
+			},
+			success:function(response) {
+				console.log(response);
+			},
+			error:function(){
+        alert("error");
+       }
+		});
+			});
+	}else{
+		console.log("Browser doesn't support geolocation!");
+	}
+})

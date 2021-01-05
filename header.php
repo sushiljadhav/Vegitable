@@ -256,6 +256,11 @@ a {text-decoration: none; font-size: 14px; font-weight: 300}
 				</div>
     	</nav>
 		</div>
+<!-- <div id="popup" class="hidden">
+  <div id="loc"></div>
+  <button>THE WORLD</button>
+  <button>SOMEWHERE ELSE</button>
+</div> -->
 </header>
 
        

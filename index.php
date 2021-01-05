@@ -1,6 +1,10 @@
-<?php include('header.php')?>
-
-<section class="banner">
+<?php 
+	session_start();
+	include('header.php');
+	if(isset($_SESSION['latitude']) && ($_SESSION['longitude'])) {
+	
+	?>
+	<section class="banner">
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
@@ -494,4 +498,21 @@
 	
 	</div>
 </section>
+
+
+
+
+
+
+
+<?php
+}
+else {
+	echo "error here";
+	include ("error.php");
+}
+
+?>
+
+
 <?php include("footer.php")?>
