@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>soil</title>
+	<title>Vegitable</title>
 	
   <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->
   <!--[if lt IE 9]>
