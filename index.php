@@ -31,96 +31,41 @@
 <section class="vegitable_card">
 	<div class="container">
 		<h2>Fruits</h2>
-		<div class="row">
+		<?php
+			$result = "SELECT * FROM `Category` WHERE `ParentCategory` = '' LIMIT 5";
+			$data = mysqli_query($DBcon,$result);
+			//$sr = 1;
+			while($rootcategory = mysqli_fetch_array($data)) {
+			
+		?>
+		<div class="row">		
+		<?php
+				$ParentCategory = $rootcategory['CategoryName'];
+				$result = "SELECT * FROM `Category` WHERE `ParentCategory` = '$ParentCategory' LIMIT 8";
+				$data = mysqli_query($DBcon,$result);
+				$sr = 1;
+				while($category = mysqli_fetch_array($data))
+				{
+		?>
 			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
+				<a href="products.php?CategoryName=<?php echo $category['CategoryName'];?>" title="<?php echo $category['CategoryName']?>">
 					<div class="card_content">
 						<figure>
 							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
 						</figure>
-						<h6>strawberry</h6>
+						<h6><?php echo $category['CategoryName'];?></h6>
 						<span>Lorem ipsum dolor sit amet.</span>
 					</div>
 				</a>
-			</div>	
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable Two">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable Three">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable four">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>	
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable Two">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>	
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable Three">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable four">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
+		</div>	
+		<?php
+					}
+				?>
 		</div>
+		<!-- close where -->
+		<?php
+			}		
+		?>
 		<div class="viewAll">
 			<a href="products.php" title="View All">View All</a>
 		</div>
@@ -132,96 +77,40 @@
 <section class="vegitable_card">
 	<div class="container">
 		<h2>Veggie</h2>
+		<?php
+			$result = "SELECT * FROM `Category` WHERE `ParentCategory` = '' LIMIT 5";
+			$data = mysqli_query($DBcon,$result);
+			//$sr = 1;
+			while($rootcategory = mysqli_fetch_array($data)) {
+			
+		?>
 		<div class="row">
+		<?php
+				$ParentCategory = $rootcategory['CategoryName'];
+				$result = "SELECT * FROM `Category` WHERE `ParentCategory` = '$ParentCategory' LIMIT 8";
+				$data = mysqli_query($DBcon,$result);
+				$sr = 1;
+				while($category = mysqli_fetch_array($data))
+				{
+		?>
 			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
+				<a href="products.php?CategoryName=<?php echo $category['CategoryName']?>;" title="<?php echo $category['CategoryName']?>">
 					<div class="card_content">
 						<figure>
 							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
 						</figure>
-						<h6>strawberry</h6>
+						<h6><?php echo $category['CategoryName'];?></h6>
 						<span>Lorem ipsum dolor sit amet.</span>
 					</div>
 				</a>
 			</div>	
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable Two">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable Three">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable four">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_one.jpg" alt="Vegitable One">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>	
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_two.jpg" alt="Vegitable Two">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>	
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_three.jpg" alt="Vegitable Three">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-xl-3 col-md-3 col-lg-3 col-sm-4">
-				<a href="#FIXME" title="Strawberry">
-					<div class="card_content">
-						<figure>
-							<img src="assets/image/vegitable/vegi_four.jpg" alt="Vegitable four">
-						</figure>
-						<h6>strawberry</h6>
-						<span>Lorem ipsum dolor sit amet.</span>
-					</div>
-				</a>
-			</div>
+		<?php 
+				}
+		?>			
 		</div>
+		<?php 
+			} 
+		?>
 		<div class="viewAll">
 			<a href="products.php" title="View All">View All</a>
 		</div>
