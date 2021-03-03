@@ -1,5 +1,6 @@
 <?php 
 	include('header.php');
+	include ('config.php');
 ?>
 	<section class="banner">
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
